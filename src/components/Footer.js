@@ -8,7 +8,7 @@ export const Footer = () => {
           <h3>Page Links</h3>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#scroll-up">Home</a>
             </li>
             <li>
               <a href="#skills">Skills</a>
