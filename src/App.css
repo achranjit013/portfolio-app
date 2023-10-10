@@ -153,7 +153,8 @@ header {
 /* hero section */
 .hero-section {
   justify-content: space-between;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   padding: 0 4rem;
   background: var(--color-orange);
 }
@@ -198,7 +199,8 @@ header {
 /* summary / banner section */
 .summary-section {
   justify-content: space-evenly;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   padding: 2rem 0;
   border: 2px solid var(--color-border);
   border-radius: 10rem;
@@ -237,7 +239,8 @@ header {
 
 /* skills section */
 .skills-section {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .skills-section .skills-content {
@@ -272,7 +275,8 @@ header {
 
 /* recent work */
 .recent-work {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .recent-work .recent-work-container {
@@ -305,7 +309,6 @@ header {
 
 /* about me */
 .about-me-section {
-  margin-top: 10rem;
   padding: 10rem 0;
   background: lightblue;
 }
@@ -410,7 +413,8 @@ header {
 footer {
   background: var(--color-dark);
   color: var(--color-font);
-  padding: 10rem 0;
+  padding: 5rem 0;
+  min-height: 60vh;
 }
 
 .footer-section {

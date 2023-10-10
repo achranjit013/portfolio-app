@@ -30,11 +30,11 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/" element={<Summary />} />
-          <Route path="/" element={<Skills />} />
-          <Route path="/" element={<RecentWork />} />
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/" element={<GetInTouch />} />
+          <Route path="summary" element={<Summary />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="recent-work" element={<RecentWork />} />
+          <Route path="about-me" element={<AboutMe />} />
+          <Route path="get-in-touch" element={<GetInTouch />} />
         </Routes>
 
         <Footer />
