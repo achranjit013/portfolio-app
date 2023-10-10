@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import "./MediaQuery.css";
 import { AboutMe } from "./components/AboutMe";
@@ -27,12 +28,15 @@ function App() {
           </label>
         </div>
 
-        <Hero />
-        <Summary />
-        <Skills />
-        <RecentWork />
-        <AboutMe />
-        <GetInTouch />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Summary />} />
+          <Route path="/" element={<Skills />} />
+          <Route path="/" element={<RecentWork />} />
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/" element={<GetInTouch />} />
+        </Routes>
+
         <Footer />
 
         {/* scroll up */}
