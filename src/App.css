@@ -154,6 +154,7 @@ header {
 .hero-section {
   justify-content: space-between;
   margin-top: 10rem;
+  margin-bottom: 10rem;
   padding: 0 4rem;
   background: var(--color-orange);
 }
