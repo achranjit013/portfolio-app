@@ -150,6 +150,11 @@ header {
   background: white;
 }
 
+/* main section */
+.main {
+  min-height: 39vh;
+}
+
 /* hero section */
 .hero-section {
   justify-content: space-between;
@@ -414,7 +419,7 @@ footer {
   background: var(--color-dark);
   color: var(--color-font);
   padding: 5rem 0;
-  min-height: 60vh;
+  /* min-height: 60vh; */
 }
 
 .footer-section {
