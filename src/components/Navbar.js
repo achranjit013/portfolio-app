@@ -1,8 +1,12 @@
 import React from "react";
 
 export const Navbar = () => {
+  // const hideSideMenu = () => {
+  //   document.querySelector(".h").style.display = "none";
+  // };
+
   return (
-    <header>
+    <header className="h">
       <section className="container flex header-section">
         <div className="header-info flex">
           <div>Ranjit</div>
